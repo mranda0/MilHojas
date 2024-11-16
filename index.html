@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="Imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                   <li><a href="#">Inicio</a></li>
+                   <li><a href="#">Servicios</a></li>
+                   <li><a href="#">Productos</a></li>
+                   <li><a href="#">Contacto</a></li> 
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="Imagenes/car.png" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>BIENVENIDO A PANADERÍA MIL HOJAS</span>
+                <h1></h1>
+                <p>
+                    En Mil Hojas, nos complace ofrecerte un espacio acogedor donde la frescura y calidad son nuestras prioridades. Desde el primer paso dentro, el aroma del pan recién horneado y el café de especialidad te invitan a disfrutar de una experiencia única. Con una selección de productos elaborados con esmero y pasión, cada bocado está pensado para hacerte sentir como en casa.
+
+                    Gracias por visitarnos, y esperamos que cada momento en Mil Hojas sea tan especial como el sabor de nuestras delicias. ¡Bienvenido y disfruta!
+                </p>
+                <div class="butons">
+                    <a href="#" class="btn-1">Informacion</a>
+                    <a href="#" class="btn-1">Leer mas</a>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="Imagenes/bag.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="oferts container">
+        <div class="ofert-1 b1">
+            <div class="ofert-txt"> 
+                <h3>Conoce nuestros mejores cafés</h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="Imagenes/s1.png" alt="">
+            </div>
+        </div>
+
+        <div class="ofert-1 b2">
+            <div class="ofert-txt"> 
+                <h3>Podrás disfrutar de los mejores postres</h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="Imagenes/s2.png" alt="">
+            </div>
+        </div>
+
+        <div class="ofert-1 b3">
+            <div class="ofert-txt"> 
+                <h3>¿Con frío? Ven y tómate un té</h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="Imagenes/s3.png" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- LISTA DE PRODUCTOS -->
+
+    <main class="products container">  
+        <h2>Productos</h2>
+        <div class="box-container" id="lista-1">
+
+            <div class="box">   
+                <img src="Imagenes/pr1.png" alt="">
+                <div class="product-txt">
+                    <h3>Taza de café</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">S/15</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">   
+                <img src="Imagenes/pr2.png" alt="">
+                <div class="product-txt">
+                    <h3>Capucchino</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">S/20</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">   
+                <img src="Imagenes/pr3.png" alt="">
+                <div class="product-txt">
+                    <h3>Croissant</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">S/25</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">   
+                <img src="Imagenes/pr4.png" alt="">
+                <div class="product-txt">
+                    <h3>Pie de manzana</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">S/12</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">   
+                <img src="Imagenes/pr5.png" alt="">
+                <div class="product-txt">
+                    <h3>Sandwich de jamón y queso</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">S/12</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">   
+                <img src="Imagenes/pr6.png" alt="">
+                <div class="product-txt">
+                    <h3>Brownie de chocolate</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">S/10</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">   
+                <img src="Imagenes/pr7.png" alt="">
+                <div class="product-txt">
+                    <h3>Té enfrutado</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">S/11</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">   
+                <img src="Imagenes/pr8.png" alt="">
+                <div class="product-txt">
+                    <h3>Muffins</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">S/12</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">   
+                <img src="Imagenes/pr9.png" alt="">
+                <div class="product-txt">
+                    <h3>Empanada de carne</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">S/13</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">   
+                <img src="Imagenes/pr10.png" alt="">
+                <div class="product-txt">
+                    <h3>Helado de chocolate</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">S/10</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">   
+                <img src="Imagenes/pr11.png" alt="">
+                <div class="product-txt">
+                    <h3>Helado de vainilla</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">S/10</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">   
+                <img src="Imagenes/pr12.png" alt="">
+                <div class="product-txt">
+                    <h3>Hamburguesa</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">S/18</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+<!-- ACABA LISTA DE PRODUCTOS -->
+
+
+        <div class="btn-2" id="load-more">Cargar Mas</div>
+    </main>
+
+    <section class="testimonial container">
+        <span>Testimoniales</span>
+        <h2>¿Qué opinan nuestros clientes?</h2>
+        <div class="testimonial-content">
+
+            <div class="testimonial-1">
+                <p>
+                    Mil Hojas" es un lugar encantador con un ambiente acogedor y una atención impecable. 
+                    Sus pasteles y el café son deliciosos, con sabores que se notan frescos y bien preparados. 
+                    Las opciones de desayuno, como las tostadas con aguacate y huevo, son irresistibles. 
+                    El personal siempre es amable y te hace sentir como en casa. Perfecto para un café tranquilo o para reunirte con amigos. ¡Altamente recomendado!
+                </p>
+                <img src="Imagenes/starts.png" alt="">
+                <h4>Valentina Durán</h4>
+            </div>
+
+            <div class="testimonial-1">
+                <p>
+                    Mil Hojas" nunca decepciona. Cada vez que vengo, la calidad de la comida y el servicio superan mis expectativas. 
+                    El café siempre está en su punto, y los postres, especialmente las tartas, son un auténtico placer. 
+                    El ambiente es relajante y perfecto para pasar un rato agradable. El personal es muy atento y siempre te hace sentir bienvenido. 
+                    Si buscas un lugar tranquilo y con excelente comida, no busques más. ¡Totalmente recomendado!
+                </p>
+                <img src="Imagenes/starts.png" alt="">
+                <h4>Javier Montoya</h4>
+            </div>
+
+            <div class="testimonial-1">
+                <p>
+                    Mil Hojas" es mi lugar favorito para una pausa en la ciudad. La combinación de un ambiente acogedor y un menú delicioso hace que cada visita sea especial. 
+                    Los panes frescos y las opciones de desayuno son espectaculares, pero lo que realmente me enamora son sus opciones de postres. 
+                    El pie de manzana es un clásico que no puedo dejar de pedir. Además, el personal es increíblemente amable, siempre con una sonrisa y dispuestos a hacerte sentir como en casa. 
+                    ¡Un lugar imprescindible para los amantes del buen café y la buena compañía!
+                </p>
+                <img src="Imagenes/starts.png" alt="">
+                <h4>Laura Sánchez</h4>
+            </div>
+
+            <div class="testimonial-1">
+                <p>
+                    Si buscas un lugar donde la comida, el café y la atención sean de primera, Mil Hojas es el sitio. 
+                    El café es de excelente calidad, y las opciones para el almuerzo, como sus ensaladas frescas o los bocadillos, son perfectas para una comida ligera. 
+                    Pero lo que realmente destaca es el ambiente relajado y la calidez del personal, que siempre te hace sentir bienvenido. Además, los postres son irresistibles. 
+                    ¡Siempre salgo con ganas de volver!
+                </p>
+                <img src="Imagenes/starts.png" alt="">
+                <h4>Diego Ramírez</h4>
+            </div>
+
+        </div>    
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">soportemilhojas123@gmail.com</a></li>
+                    <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">milhojassoporte123@gmail.com</a></li>
+                </ul>    
+            </div>
+
+            <div class="link">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/milhojas_panaderia/">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a href="https://www.tiktok.com/">Tiktok</a></li>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+                </ul>    
+            </div>
+
+            <div class="link">
+                <h3>Trabaja con nosotros</h3>
+                <ul>
+                    <li><a href="#">Soporte</a></li>
+                    <li><a href="#">Enviar CV</a></li>
+                    <li><a href="#">Cita presencial</a></li>
+                    <li><a href="#">Cita Virtual</a></li>
+                </ul>    
+            </div>
+
+            <div class="link">
+                <h3>Teléfonos de contacto</h3>
+                <ul>
+                    <li><a href="#">+51 987 654 321</a></li>
+                    <li><a href="#">+51 978 654 123</a></li>
+                    <li><a href="#">(01) 543 2124</a></li>
+                    <li><a href="#">(01) 567 8994</a></li>
+                </ul>    
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
